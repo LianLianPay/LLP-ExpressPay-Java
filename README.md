@@ -10,6 +10,8 @@
 
 [快捷收款测试商户号信息](#快捷收款测试商户号信息)
 
+[使用说明](#使用说明)
+
 [文档说明](#文档说明)
 
 ## 前置要求
@@ -29,6 +31,10 @@ MIICdgIBADANBgkqhkiG9w0BAQEFAASCAmAwggJcAgEAAoGBAKZGXpmfgya2gGh6UdFPqPqi6e2z/HX4
 其公钥已上传至商户站。有关您真实商户号的公私钥配置， 请参考[连连开放平台 - 公私钥配置](https://zealous-kare-7abde4.netlify.com/docs/development/signature-key-generation)。
 
 > 测试商户号是连连正式环境的商户号， 需要使用真实信息进行测试， 测试时建议将订单金额设置到```0.01```元(CNY)。
+
+## 使用说明
+
+根据需要， 将```Web```或```H5```版的示例工程部署到您的Web应用服务器(可以使用[Tomcat](http://tomcat.apache.org/), 或[JBoss](https://www.jboss.org/)等)运行即可。
 
 ## 文档说明
 
